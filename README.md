@@ -1,4 +1,4 @@
-# 포항바다지금 (Pohang Sea Now)
+# 바라던 바다
 
 포항 해수욕장의 수온·물때(조석)·파고·풍속 같은 바다 상태를 공공데이터 API에서 수집해 MariaDB에 저장하고, Spring Boot REST API와 React 화면으로 보여주는 웹 서비스입니다.
 
