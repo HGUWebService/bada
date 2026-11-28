@@ -5,6 +5,7 @@
 ## 관련 기능
 <!-- 기능 명세의 F번호를 적어주세요. 예: F1 해수욕장 목록 조회 -->
 - F
+- Closes #
 
 ## 테스트 방법
 <!-- 리뷰어가 직접 확인할 수 있도록 적어주세요. -->
@@ -21,5 +22,6 @@
 - [ ] `develop` 브랜치를 대상으로 PR을 열었습니다.
 - [ ] 브랜치 이름이 규칙(`feature/...`, `fix/...`)을 따릅니다.
 - [ ] 커밋 메시지가 규칙(`feat:`, `fix:`, `docs:` 등)을 따릅니다.
-- [ ] 로컬에서 빌드가 성공합니다. (backend: `./gradlew build`, frontend: `npm run build`)
+- [ ] 로컬에서 빌드가 성공합니다. (backend: `./gradlew build -x test`, frontend: `npm run build`)
+- [ ] Files changed에서 셀프 리뷰를 마쳤습니다. (디버그 출력·주석 처리한 코드 없음)
 - [ ] 비밀번호·API 키 등 민감 정보가 포함되지 않았습니다.

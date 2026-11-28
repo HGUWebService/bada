@@ -1,0 +1,32 @@
+name: 버그
+description: 예상과 다르게 동작하는 문제
+title: "[Bug] "
+labels: [bug]
+body:
+  - type: dropdown
+    id: area
+    attributes:
+      label: 영역
+      options: [backend, frontend, 배포]
+  - type: textarea
+    id: steps
+    attributes:
+      label: 재현 방법
+      placeholder: |
+        1. POST /api/beaches 에 {...} 요청
+        2. ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 예상 결과
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: 실제 결과
+      description: 오류 메시지나 응답 본문을 그대로 붙여 넣기
+    validations:
+      required: true
